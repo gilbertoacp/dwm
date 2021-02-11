@@ -2,3 +2,7 @@ st
 *.o
 *.rej
 *.orig
+*.c.orig
+*.h.orig
+*.c.rej
+*.h.rej
