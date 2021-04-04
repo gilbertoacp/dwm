@@ -1,6 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
-sudo cp ./dwm/dwm.desktop /usr/share/xsessions/
-cd ./dwm && sudo make clean install
-cd ./st && sudo make clean install
-cd ./dmenu && sudo make clean install
+location="$(pwd)"
+sudo cp "${location}/dwm/dwm.desktop" /usr/share/xsessions/
+cd "${location}/dwm" && sudo make clean install
+cd "${location}/st" && sudo make clean install
+cd "${location}/dwmblocks" && sudo make clean install
