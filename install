@@ -1,0 +1,6 @@
+#!/bin/sh
+
+sudo cp ./dwm/dwm.desktop /usr/share/xsessions/
+cd ./dwm && sudo make clean install
+cd ./st && sudo make clean install
+cd ./dmenu && sudo make clean install
