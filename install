@@ -4,4 +4,4 @@ location="$(pwd)"
 sudo cp "${location}/dwm/dwm.desktop" /usr/share/xsessions/
 cd "${location}/dwm" && sudo make clean install
 cd "${location}/st" && sudo make clean install
-cd "${location}/dwmblocks" && sudo make clean install
+cd "${location}/dmenu" && sudo make clean install
