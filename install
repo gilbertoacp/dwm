@@ -1,5 +1,3 @@
-#!/bin/bash
-
 location="$(pwd)"
 sudo cp "${location}/dwm/dwm.desktop" /usr/share/xsessions/
 cd "${location}/dwm" && sudo make clean install
