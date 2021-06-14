@@ -38,8 +38,9 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
- { NULL,     NULL,       "Emulator",        0,         True,     -1 },
+   
 	/* class      instance    title       tags mask     isfloating   monitor */
+    { NULL,     NULL,       "Emulator",        0,         True,     -1 },
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 };
