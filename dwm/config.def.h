@@ -21,8 +21,8 @@ static const char *fonts[]          = { "UbuntuMono Nerd Font:size=10:weight=bol
 static const char dmenufont[]       = "UbuntuMono Nerd Font:size=10:weight=bold:antialias=true:autohint=true";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
+static const char col_gray3[]       = "#ABB2BF";
+static const char col_gray4[]       = "#282C34";
 static const char col_cyan[]        = "#61AFEF";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
@@ -31,7 +31,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { " 1 ", " 2 ", " 3 ", " 4 ", " 5 ", " 6 ", " 7 ", " 8 ", " 9 "  };
 
 static const Rule rules[] = {
 	/* xprop(1):
