@@ -41,8 +41,16 @@ static const Rule rules[] = {
    
 	/* class      instance    title       tags mask     isfloating   monitor */
     { NULL,     NULL,       "Emulator",        0,         True,     -1 },
-	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
+    { "flameshot",     NULL,       NULL,        0,         True,     -1 },
+    { "SimpleScreenRecorder",     NULL,       NULL,        0,         True,     -1 },
+    { "Nitrogen",     NULL,       NULL,        0,         True,     -1 },
+    { "Pavucontrol",     NULL,       NULL,        0,         True,     -1 },
+    { "notification",     NULL,       NULL,        0,         True,     -1 },
+    { "dialog",     NULL,       NULL,        0,         True,     -1 },
+    { "error",     NULL,       NULL,        0,         True,     -1 },
+    { "confirm",     NULL,       NULL,        0,         True,     -1 },
+    { "download",     NULL,       NULL,        0,         True,     -1 },
+    { "file_progress",     NULL,       NULL,        0,         True,     -1 }
 };
 
 /* layout(s) */
