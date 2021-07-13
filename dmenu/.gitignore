@@ -2,4 +2,4 @@
 *.obj
 *.orig
 *.o
-dwm
+dmenu
