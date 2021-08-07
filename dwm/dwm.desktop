@@ -2,6 +2,6 @@
 Encoding=UTF-8
 Name=dwm
 Comment=the dynamic window manager
-Exec=/home/gilberto/.local/bin/run_dwm
+Exec=dwm
 Icon=dwm
 Type=XSession
