@@ -15,7 +15,8 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;     /* 0 means no systray */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = {"JetBrainsMono Nerd Font:size=9:weight=bold:antilias=true:autohint=true"};
+static const char *fonts[]          = {"JetBrainsMono Nerd Font:size=10:weight=bold:antilias=true:autohint=true", 
+                                       "JoyPixels:pixelsize=11:antialias=true:autohint=true"};
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
 static char normfgcolor[]           = "#bbbbbb";
