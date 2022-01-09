@@ -47,6 +47,9 @@ static const Rule rules[] = {
     { "error",     NULL,       NULL,        0,         True,     -1 },
     { "confirm",     NULL,       NULL,        0,         True,     -1 },
     { "download",     NULL,       NULL,        0,         True,     -1 },
+    { "Sxiv",     NULL,       NULL,        0,         True,     -1 },
+    { "File-roller",     NULL,       NULL,        0,         True,     -1 },
+    { "zoom",     NULL,       NULL,        0,         True,     -1 },
     { "file_progress",     NULL,       NULL,        0,         True,     -1 }
 };
 
