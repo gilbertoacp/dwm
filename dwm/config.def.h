@@ -1,6 +1,10 @@
 /* See LICENSE file for copyright and license details. */
 #include <X11/XF86keysym.h>
 
+/* Volume keys */
+static const char *upvol[]   = { "/usr/bin/pactl", "set-sink-volume", "0", "+5%",     NULL };
+static const char *downvol[] = { "/usr/bin/pactl", "set-sink-volume", "0", "-5%",     NULL };
+static const char *mutevol[] = { "/usr/bin/pactl", "set-sink-mute",   "0", "toggle",  NULL };
 /* appearance */
 static unsigned int borderpx  = 1;        /* border pixel of windows */
 static unsigned int snap      = 32;       /* snap pixel */
@@ -43,6 +47,9 @@ static const Rule rules[] = {
     { "error",     NULL,       NULL,        0,         True,     -1 },
     { "confirm",     NULL,       NULL,        0,         True,     -1 },
     { "download",     NULL,       NULL,        0,         True,     -1 },
+    { "Sxiv",     NULL,       NULL,        0,         True,     -1 },
+    { "File-roller",     NULL,       NULL,        0,         True,     -1 },
+    { "zoom",     NULL,       NULL,        0,         True,     -1 },
     { "file_progress",     NULL,       NULL,        0,         True,     -1 }
 };
 
@@ -76,10 +83,6 @@ static const char *dmenucmd[] = { "dmenu_run" };
 static const char *termcmd[]  = { "kitty", NULL };
 static const char *filemanagercmd[]  = { "pcmanfm", NULL};
 
-/* Volume keys */
-static const char *upvol[]   = { "/usr/bin/pactl", "set-sink-volume", "0", "+5%",     NULL };
-static const char *downvol[] = { "/usr/bin/pactl", "set-sink-volume", "0", "-5%",     NULL };
-static const char *mutevol[] = { "/usr/bin/pactl", "set-sink-mute",   "0", "toggle",  NULL };
 
 /*
  * Xresources preferences to load at startup
